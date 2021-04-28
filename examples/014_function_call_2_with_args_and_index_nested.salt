@@ -1,0 +1,1 @@
+foo ( 1 , 2 ) ( a [ 7 ] , bar ( c , d , e ) , c [ b + index ] );

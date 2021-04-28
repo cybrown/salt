@@ -1,0 +1,1 @@
+function my_func ( arg1 ) { return 0; }

@@ -1,0 +1,6 @@
+binary (+)
+  boolean (true)
+  paren
+    binary (-)
+      boolean (false)
+      boolean (true)

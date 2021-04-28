@@ -1,0 +1,25 @@
+0000: LOAD_VARIABLE
+0001: index (0) 'foo'
+0005: LOAD_DOUBLE
+0006: double (1.000000)
+0014: LOAD_DOUBLE
+0015: double (2.000000)
+0023: CALL
+0024: arity (2)
+0028: LOAD_VARIABLE
+0029: index (4) 'a'
+0033: LOAD_VARIABLE
+0034: index (6) 'bar'
+0038: LOAD_VARIABLE
+0039: index (10) 'c'
+0043: LOAD_VARIABLE
+0044: index (12) 'd'
+0048: LOAD_VARIABLE
+0049: index (14) 'e'
+0053: CALL
+0054: arity (3)
+0058: LOAD_VARIABLE
+0059: index (10) 'c'
+0063: CALL
+0064: arity (3)
+0068: POP

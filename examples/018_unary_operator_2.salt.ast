@@ -1,0 +1,7 @@
+unary (-)
+  unary (+)
+    unary (+)
+      paren
+        unary (~)
+          unary (!)
+            number (3.000000)

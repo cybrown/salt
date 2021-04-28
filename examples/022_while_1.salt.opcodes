@@ -1,0 +1,11 @@
+0000: LOAD_BOOLEAN
+0001: boolean (1)
+0002: JUMP_ZERO
+0003: index (23)
+0007: LOAD_VARIABLE
+0008: index (0) 'heat'
+0012: CALL
+0013: arity (0)
+0017: POP
+0018: JUMP
+0019: index (0)

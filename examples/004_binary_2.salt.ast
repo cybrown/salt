@@ -1,0 +1,5 @@
+binary (=)
+  identifier (a)
+  binary (=)
+    identifier (b)
+    number (3.000000)

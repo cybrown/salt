@@ -1,0 +1,8 @@
+0000: JUMP
+0001: index (17)
+0005: RETURN
+0006: LOAD_FUNCTION
+0007: index (5)
+0011: STORE_VARIABLE
+0012: index (0) 'my_func'
+0016: POP

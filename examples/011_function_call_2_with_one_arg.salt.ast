@@ -1,0 +1,4 @@
+call
+  identifier (foo)
+  args (1)
+    number (1.000000)

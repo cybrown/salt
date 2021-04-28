@@ -1,0 +1,5 @@
+call
+  call
+    identifier (foo)
+    args (0)
+  args (0)

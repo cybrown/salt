@@ -1,0 +1,6 @@
+0000: LOAD_STRING
+0001: index (0) 'Hello, '
+0005: LOAD_STRING
+0006: index (8) 'World !'
+0010: ADD
+0011: POP

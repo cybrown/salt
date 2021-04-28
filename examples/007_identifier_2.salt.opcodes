@@ -1,0 +1,3 @@
+0000: LOAD_VARIABLE
+0001: index (0) 'foo123'
+0005: POP

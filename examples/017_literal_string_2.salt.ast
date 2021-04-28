@@ -1,0 +1,3 @@
+binary (+)
+  string ("Hello, ")
+  string ("World !")

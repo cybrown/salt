@@ -1,0 +1,4 @@
+for
+  call
+    identifier (do_something)
+    args (0)

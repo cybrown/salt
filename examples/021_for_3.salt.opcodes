@@ -1,0 +1,13 @@
+0000: LOAD_DOUBLE
+0001: double (2.000000)
+0009: JUMP_ZERO
+0010: index (39)
+0014: LOAD_VARIABLE
+0015: index (0) 'do_something'
+0019: CALL
+0020: arity (0)
+0024: POP
+0025: LOAD_DOUBLE
+0026: double (3.000000)
+0034: JUMP
+0035: index (0)

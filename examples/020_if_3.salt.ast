@@ -1,0 +1,10 @@
+if
+  identifier (a)
+  if
+    identifier (b)
+    if
+      identifier (c)
+      number (0.000000)
+      number (1.000000)
+    number (2.000000)
+  number (3.000000)

@@ -1,0 +1,7 @@
+0000: LOAD_VARIABLE
+0001: index (0) 'do_something'
+0005: CALL
+0006: arity (0)
+0010: POP
+0011: JUMP
+0012: index (0)
