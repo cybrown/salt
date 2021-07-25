@@ -10,7 +10,7 @@
 #include "../lib/vm.h"
 #include "../lib/ast_pretty_print.h"
 
-void print_value(Value *value)
+void print_value(char *strings, Value *value)
 {
     switch (value->kind)
     {
@@ -22,6 +22,9 @@ void print_value(Value *value)
         break;
     case KIND_BOOLEAN:
         printf("boolean(%s)", value->value.b ? "true" : "false");
+        break;
+    case KIND_STRING:
+        printf("string(%s)", strings + value->value.s);
         break;
     }
 }
@@ -94,14 +97,14 @@ void dump_opcodes(CompilationResult result)
     }
 }
 
-void dump_stack(VM *vm)
+void dump_stack(VM *vm, char *strings)
 {
     printf("\n");
     printf("Stack:\n");
     for (int i = vm->sp - 1; i >= 0; i--)
     {
         printf("%d: ", i);
-        print_value(&vm->stack[i]);
+        print_value(strings, &vm->stack[i]);
         printf("\n");
     }
 }
@@ -206,7 +209,7 @@ int main(int argc, char **argv)
 
             if (flag_dump_stack_last)
             {
-                print_value(&vm->stack[vm->sp]);
+                print_value(result.strings, &vm->stack[vm->sp]);
             }
         }
     }

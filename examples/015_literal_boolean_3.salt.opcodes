@@ -4,6 +4,6 @@
 0003: boolean (0)
 0004: LOAD_BOOLEAN
 0005: boolean (1)
-0006: SUB
-0007: ADD
+0006: BOR
+0007: BAND
 0008: POP

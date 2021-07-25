@@ -23,6 +23,9 @@ void print_value(Value *value)
     case KIND_BOOLEAN:
         printf("boolean(%s)", value->value.b ? "true" : "false");
         break;
+    case KIND_STRING:
+        printf("string(%ld)", value->value.s);
+        break;
     }
 }
 

@@ -1,6 +1,6 @@
-binary (+)
+binary (&)
   boolean (true)
   paren
-    binary (-)
+    binary (|)
       boolean (false)
       boolean (true)
