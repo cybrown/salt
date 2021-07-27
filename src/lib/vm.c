@@ -58,7 +58,7 @@ Value value_mod(Value a, Value b)
     {
         puts("Error: only numbers are allowed for modulo");
     }
-    Value result = create_value_number((double)(((long)a.value.d) % ((long)b.value.d)));
+    Value result = create_value_number((double)(((int)a.value.d) % ((int)b.value.d)));
     return result;
 }
 
@@ -183,10 +183,22 @@ void vm_run(VM *vm, char *opcodes)
             vm->stack[vm->sp++] = value_bor(a, b);
             break;
         }
+        case OPCODE_POS:
+        {
+            Value value = vm->stack[--vm->sp];
+            vm->stack[vm->sp++] = create_value_number(+value.value.d);
+            break;
+        }
         case OPCODE_NEG:
         {
             Value value = vm->stack[--vm->sp];
             vm->stack[vm->sp++] = create_value_number(-value.value.d);
+            break;
+        }
+        case OPCODE_CMP:
+        {
+            Value value = vm->stack[--vm->sp];
+            vm->stack[vm->sp++] = create_value_number(~((int)value.value.d));
             break;
         }
         default:

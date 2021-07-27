@@ -1,7 +1,5 @@
 unary (-)
   unary (+)
-    unary (+)
-      paren
-        unary (~)
-          unary (!)
-            number (3.000000)
+    paren
+      unary (~)
+        number (3.000000)
